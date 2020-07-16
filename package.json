@@ -4,7 +4,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "compostjs": "0.0.2"
+    "compostjs": "0.0.5"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
