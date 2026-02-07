@@ -54,7 +54,7 @@ function line(data) {
 // ----------------------------------------------------------------------------
 // DEMO #1: United Kingdom general elections (2017 vs 2019)
 // ----------------------------------------------------------------------------
-
+/*
 let bars =
   c.axes("left bottom", c.scaleY(s.continuous(0, 410), c.overlay(
     elections.map(e =>
@@ -65,7 +65,7 @@ let bars =
     )    
   )))
 
-c.render("out1", title("United Kingdom general elections (2017 vs 2019)", bars))
+c.render("out", title("United Kingdom general elections (2017 vs 2019)", bars))
 
 // ----------------------------------------------------------------------------
 // DEMO #2: GBP-USD and GBP-EUR rates (June-July 2016)
@@ -149,7 +149,7 @@ c.interactive("out4", init1, update1, render1)
 // ----------------------------------------------------------------------------
 // DEMO #5: Interactive 'You Draw' chart that lets you resize bars
 // ----------------------------------------------------------------------------
-
+*/
 let data = 
  [ ["Social protection", 14.10], ["Health", 7.40], ["Education", 4.50], 
    ["General public services", 3.10], ["Economic affairs", 2.40] ]
@@ -217,4 +217,5 @@ function render(trigger, state) {
   ]);
 }
 
-c.interactive("out5", init, update, render) 
+c.interactive("out", init, update, render) 
+//*/

@@ -6,11 +6,11 @@ dependencies and run the demos:
 
 ```
 npm install
-npm run start
+npm run dev
 ```
 
 After running these two commands, you will see the demos
-hosted by WebPack dev server at http://localhost:8080.
+hosted by Vite dev server at http://localhost:8080.
 
-You can now start experimenting by editting the demos in 
+You can now start experimenting by editing the demos in 
 the `src/demos.js` file.
